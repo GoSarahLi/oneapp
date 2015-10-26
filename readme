@@ -1,4 +1,4 @@
-1. replace war file directory of OlingoPerfTestProducer.java
+1. replace war file directory of OData4TestLoad.java
    at 
    File warFile = new File("/Users/dan.li/Desktop/DemoServiceJetty.war");
 2. mvn package
