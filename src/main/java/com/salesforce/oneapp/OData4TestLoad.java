@@ -7,7 +7,7 @@ import org.eclipse.jetty.security.HashLoginService;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.handler.AllowSymLinkAliasChecker;
 import org.eclipse.jetty.webapp.WebAppContext;
-public class OneWebApp
+public class OData4TestLoad
 {
     public static void main( String[] args ) throws Exception
     {
@@ -34,7 +34,7 @@ public class OneWebApp
         File warFile = new File(
                 "/Users/dan.li/Desktop/DemoServiceJetty.war");
         webapp.setWar(warFile.getAbsolutePath());
-//        webapp.addAliasCheck(new AllowSymLinkAliasChecker());
+        // webapp.addAliasCheck(new AllowSymLinkAliasChecker());
  
         // A WebAppContext is a ContextHandler as well so it needs to be set to
         // the server so it is aware of where to send the appropriate requests.

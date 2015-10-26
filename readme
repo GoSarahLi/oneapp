@@ -1,0 +1,5 @@
+1. replace war file directory of OlingoPerfTestProducer.java
+   at 
+   File warFile = new File("/Users/dan.li/Desktop/DemoServiceJetty.war");
+2. mvn package
+3. java -jar -Xmx6144m target/odata4-testload-0.0.1-SNAPSHOT-jar-with-dependencies.jar
